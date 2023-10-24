@@ -49,7 +49,7 @@ We welcome contributions to make the Flutter News App even better. If you'd like
 
 ## Issues
 
-If you encounter any issues or have feature requests, please open an issue on our [issue tracker](https://github.com/shivamchauhan29/flutter-news-app/issues).
+If you encounter any issues or have feature requests, please open an issue on our [issue tracker](https://github.com/shivamchauhan29/newsapp/issues).
 
 ## License
 
