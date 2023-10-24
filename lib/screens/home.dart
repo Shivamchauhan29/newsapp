@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod/riverpod.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final categoryFilterProvider = StateProvider<String?>((ref) => null);
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
 
   @override
-  HomeScreenState createState() => HomeScreenState();
+  ConsumerState createState() => HomeScreenState();
 }
 
 // Replace with your actual API key
 
-class HomeScreenState extends State<HomeScreen> {
+class HomeScreenState extends ConsumerState<HomeScreen> {
   List<String> categories = [
     'Business',
     'Entertainment',
@@ -144,7 +144,7 @@ class HomeScreenState extends State<HomeScreen> {
                       selected:
                           false, // You can set the selected state as needed
                       onSelected: (bool selected) {
-                        ref.read(categoryFilterProvider).state = category;
+                        ref.read(categoryFilterProvider)?.state = category;
                       },
                     ),
                   );
