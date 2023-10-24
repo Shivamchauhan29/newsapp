@@ -23,4 +23,35 @@ To use the Flutter News App, you'll need to have Flutter and Dart installed on y
 Once you have Flutter set up, you can clone this repository and run the app on your device. Here are the steps:
 
 1. Clone the repository:
+    ```bash
+    git clone https://github.com/shivamchauhan29/flutter-news-app.git
+2. Change the working directory:
+    ```bash
+    cd flutter-news-app
+3. Install the dependencies:
+    ```bash
+    flutter pub get
+4. Run the app:
+    ```bash
+    flutter run
+
+## Contributing
+
+We welcome contributions to make the Flutter News App even better. If you'd like to contribute, please follow these guidelines:
+
+1. **Fork this repository.**
+
+2. **Create a new branch for your feature or bug fix.**
+
+3. **Make your changes and test thoroughly.**
+
+4. **Submit a pull request with a clear description of your changes and the problem you're solving.**
+
+## Issues
+
+If you encounter any issues or have feature requests, please open an issue on our [issue tracker](https://github.com/shivamchauhan29/flutter-news-app/issues).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
